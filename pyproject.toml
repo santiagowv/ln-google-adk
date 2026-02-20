@@ -3,5 +3,14 @@ name = "ln-google-adk"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []
+requires-python = ">=3.11"
+dependencies = [
+    "google-adk>=1.25.1",
+    "langchain-community==0.3.28",
+    "wikipedia==1.4.0",
+    "crewai==0.95.0",
+    "crewai-tools==0.33.0",
+    "dateparser==1.2.2",
+    "pandas==2.2.3",
+    "litellm==1.76.0"
+]
