@@ -12,9 +12,6 @@ from dotenv import load_dotenv
 # Load environment variables from the .env file
 load_dotenv()
 
-# GITHUB_USERNAME = "vishal-bulbule"
-# GITHUB_TOKEN = "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"
-
 GITHUB_USERNAME = os.getenv("GITHUB_USERNAME")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
