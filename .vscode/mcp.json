@@ -1,0 +1,18 @@
+{
+  "servers": {
+    "google-maps": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "GOOGLE_MAPS_API_KEY",
+        "mcp/google-maps"
+      ],
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "AIzaSyDETIl3CtIXFU6xZQifX8Mi_aOz_vKiP0o"
+      }
+    }
+  }
+}
