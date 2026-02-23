@@ -11,7 +11,14 @@
         "mcp/google-maps"
       ],
       "env": {
-        "GOOGLE_MAPS_API_KEY": "AIzaSyDETIl3CtIXFU6xZQifX8Mi_aOz_vKiP0o"
+        "GOOGLE_MAPS_API_KEY": "google_maps_api_key"
+      }
+    },
+    "bigquery": {
+        "command": "./mcp_toolbox_database/toolbox.exe",
+        "args": ["--prebuilt","bigquery","--stdio"],
+        "env": {
+        "BIGQUERY_PROJECT": "main-analog-487920-c9"
       }
     }
   }

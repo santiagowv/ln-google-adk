@@ -800,6 +800,18 @@ wheels = [
 ]
 
 [[package]]
+name = "deprecated"
+version = "1.3.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "wrapt" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/49/85/12f0a49a7c4ffb70572b6c2ef13c90c88fd190debda93b23f026b25f9634/deprecated-1.3.1.tar.gz", hash = "sha256:b1b50e0ff0c1fddaa5708a2c6b0a6588bb09b892825ab2b214ac9ea9d92a5223", size = 2932523, upload-time = "2025-10-30T08:19:02.757Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/84/d0/205d54408c08b13550c733c4b85429e7ead111c7f0014309637425520a9a/deprecated-1.3.1-py2.py3-none-any.whl", hash = "sha256:597bfef186b6f60181535a29fbe44865ce137a5079f295b479886c82729d5f3f", size = 11298, upload-time = "2025-10-30T08:19:00.758Z" },
+]
+
+[[package]]
 name = "deprecation"
 version = "2.1.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2474,6 +2486,7 @@ dependencies = [
     { name = "langchain-community" },
     { name = "litellm" },
     { name = "pandas" },
+    { name = "toolbox-core" },
     { name = "wikipedia" },
 ]
 
@@ -2486,6 +2499,7 @@ requires-dist = [
     { name = "langchain-community", specifier = "==0.3.28" },
     { name = "litellm", specifier = "==1.76.0" },
     { name = "pandas", specifier = "==2.2.3" },
+    { name = "toolbox-core", specifier = ">=0.5.9" },
     { name = "wikipedia", specifier = "==1.4.0" },
 ]
 
@@ -4887,6 +4901,22 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/19/75/241269d1da26b624c0d5e110e8149093c759b7a286138f4efd61a60e75fe/tomli_w-1.2.0.tar.gz", hash = "sha256:2dd14fac5a47c27be9cd4c976af5a12d87fb1f0b4512f81d69cce3b35ae25021", size = 7184, upload-time = "2025-01-15T12:07:24.262Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/c7/18/c86eb8e0202e32dd3df50d43d7ff9854f8e0603945ff398974c1d91ac1ef/tomli_w-1.2.0-py3-none-any.whl", hash = "sha256:188306098d013b691fcadc011abd66727d3c414c571bb01b1a174ba8c983cf90", size = 6675, upload-time = "2025-01-15T12:07:22.074Z" },
+]
+
+[[package]]
+name = "toolbox-core"
+version = "0.5.9"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "aiohttp" },
+    { name = "deprecated" },
+    { name = "google-auth" },
+    { name = "pydantic" },
+    { name = "requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/90/a7/ba3effadeb5c42262e66e0951f60ef1eabd36c696b84ff1741f6f1ee6f6a/toolbox_core-0.5.9.tar.gz", hash = "sha256:01a42594a0140beebe55954f1315156db0931f70dbc63a18d10d3dc2cda05003", size = 62975, upload-time = "2026-02-16T12:31:58.453Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ca/72/53178d30cfdb72e9e0cf42496c1716705c955c649d292439834e65358fe9/toolbox_core-0.5.9-py3-none-any.whl", hash = "sha256:9181b841a5ce388125e8d2ecbf70fb4b44f0c0de8e77edcca5882a7078a57163", size = 50914, upload-time = "2026-02-16T12:31:57.08Z" },
 ]
 
 [[package]]
